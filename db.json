@@ -11,8 +11,38 @@
     {
       "name": "Ms. Alfonso Corwin",
       "id": 5
+    },
+    {
+      "name": "Pablo Rice",
+      "id": 6
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Rustic Plastic Hat",
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "title": "Elegant Steel Shoes",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Practical Metal Fish",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Bespoke Wooden Car",
+      "id": 18
+    }
+  ],
   "photos": []
 }
