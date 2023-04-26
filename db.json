@@ -44,5 +44,31 @@
       "id": 18
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=62123",
+      "id": 1
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=86473",
+      "id": 2
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=18847",
+      "id": 3
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=95525",
+      "id": 4
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=90715",
+      "id": 5
+    }
+  ]
 }
