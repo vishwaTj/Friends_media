@@ -53,14 +53,16 @@ function UsersList() {
  
   return (
     <div>
-      <div className='flex flex-row justify-between items-center m-3'>
-        <h1 className='m-2 text-xl'>Users</h1>
-          <Button loading={isCreatingUser} onClick={handleUserAdd}>+ Add User</Button>
+      <Button className="absolute right-10 top-2" primary rounded loading={isCreatingUser} onClick={handleUserAdd}>+ Add Friend</Button>
+      <div className='items-center mb-6'>
+        <h1 className='text-center mr-20 mt-8 font-serif font-extrabold'>Friends</h1>
        {creatingUserError && 'Error creating user...'}
-      </div>
+      </div >
+      <div className='ml-40 w-3/4'>
        {content}
+      </div> 
     </div>
   )
 }
 
-export default UsersList
+export default UsersList;
