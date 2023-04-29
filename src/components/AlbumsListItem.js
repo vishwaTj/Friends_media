@@ -12,14 +12,17 @@ function AlbumsListItem({ album }) {
        removeAlbum(album);
     }
     const header = <>
-        <Button className='mr-2' loading={results.isLoading} onClick={handleRemoveAlbum}>
+        <Button className='mr-2 border-black' loading={results.isLoading} onClick={handleRemoveAlbum}>
             <GoTrashcan />
         </Button>
         {album.title}
     </>
-    return <ExpandablePanel key={album.id} header={header}>
-       <PhotosList album={album} />
-    </ExpandablePanel>
+    return (
+     <div className="border-yellow-400"> 
+      <ExpandablePanel key={album.id} warning header={header}>
+         <PhotosList album={album} />
+      </ExpandablePanel>
+     </div> );
 }
 
 export default AlbumsListItem;

@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-.Main{
-    background-image: url("/backGo.jpg");
-} */
+
+*{
+    background-color: black;
+    color: white;  
+}
+
